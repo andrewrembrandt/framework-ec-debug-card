@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name FrameworkECDebugCard_v1)(type KiCad)(uri ${KIPRJMOD}/FrameworkECDebugCard_v1.pretty)(options "")(descr ""))
+)
