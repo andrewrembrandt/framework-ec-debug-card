@@ -1854,7 +1854,7 @@
   (symbol (lib_id "Device:LED_Small") (at 116.84 36.83 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2326b3ba-1742-4f36-87f7-22991a003d68)
-    (property "Reference" "D2" (id 0) (at 111.76 35.56 90)
+    (property "Reference" "D1" (id 0) (at 111.76 35.56 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Red" (id 1) (at 111.125 38.1 90)
@@ -2076,7 +2076,7 @@
   (symbol (lib_id "Device:LED_Small") (at 122.555 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 951a9737-1abd-4cc1-a961-022d0a301f2c)
-    (property "Reference" "D1" (id 0) (at 124.46 35.4964 90)
+    (property "Reference" "D2" (id 0) (at 124.46 35.4964 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Green" (id 1) (at 124.46 38.0364 90)
@@ -2231,7 +2231,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 116.84 28.575 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dd063de5-da3d-49de-a899-532aa51b8a7c)
-    (property "Reference" "R5" (id 0) (at 113.665 25.4 90)
+    (property "Reference" "R4" (id 0) (at 113.665 25.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270R" (id 1) (at 113.665 31.75 90)
@@ -2283,7 +2283,7 @@
   (symbol (lib_id "Device:C_Small") (at 59.055 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e4410938-748d-4f87-a5a0-2f41e55e999c)
-    (property "Reference" "C1" (id 0) (at 62.865 78.1049 0)
+    (property "Reference" "C4" (id 0) (at 62.865 78.1049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nf" (id 1) (at 62.865 80.6449 0)
@@ -2302,7 +2302,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e88ed97c-5f7f-4fa6-b202-1f3880388383)
-    (property "Reference" "C4" (id 0) (at 29.21 67.31 0)
+    (property "Reference" "C1" (id 0) (at 29.21 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nf" (id 1) (at 29.21 69.85 0)
@@ -2321,7 +2321,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 122.555 28.575 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f4b69b4c-b4ac-4a4e-8c9e-77f4e7698670)
-    (property "Reference" "R4" (id 0) (at 119.38 25.4 90)
+    (property "Reference" "R5" (id 0) (at 119.38 25.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "270R" (id 1) (at 119.38 31.75 90)
@@ -2406,8 +2406,8 @@
     (path "/41397ac6-deec-4684-a1fe-fc97df4bb74d"
       (reference "#PWR0112") (unit 1) (value "VCCIO") (footprint "")
     )
-    (path "/e4410938-748d-4f87-a5a0-2f41e55e999c"
-      (reference "C1") (unit 1) (value "100nf") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/e88ed97c-5f7f-4fa6-b202-1f3880388383"
+      (reference "C1") (unit 1) (value "10nf") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/685f0971-12c4-4d07-8eec-3ff16ff9a7d3"
       (reference "C2") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -2415,8 +2415,8 @@
     (path "/6b4ea928-298a-4319-ab39-bfe88748883f"
       (reference "C3") (unit 1) (value "100nf") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/e88ed97c-5f7f-4fa6-b202-1f3880388383"
-      (reference "C4") (unit 1) (value "10nf") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/e4410938-748d-4f87-a5a0-2f41e55e999c"
+      (reference "C4") (unit 1) (value "100nf") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/d393b8c4-8105-4600-aeed-08d8efde382f"
       (reference "C5") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -2424,11 +2424,11 @@
     (path "/3406007f-362d-417a-ba62-f33ae8f5a03a"
       (reference "C6") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/951a9737-1abd-4cc1-a961-022d0a301f2c"
-      (reference "D1") (unit 1) (value "Green") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
     (path "/2326b3ba-1742-4f36-87f7-22991a003d68"
-      (reference "D2") (unit 1) (value "Red") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D1") (unit 1) (value "Red") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/951a9737-1abd-4cc1-a961-022d0a301f2c"
+      (reference "D2") (unit 1) (value "Green") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/91d38762-eed1-4640-8cf2-f727d0ea908c"
       (reference "FB1") (unit 1) (value "500mA") (footprint "Inductor_SMD:L_0402_1005Metric")
@@ -2457,10 +2457,10 @@
     (path "/79632d0a-2b4d-433b-b855-fd528772c1aa"
       (reference "R3") (unit 1) (value "27R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/f4b69b4c-b4ac-4a4e-8c9e-77f4e7698670"
+    (path "/dd063de5-da3d-49de-a899-532aa51b8a7c"
       (reference "R4") (unit 1) (value "270R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/dd063de5-da3d-49de-a899-532aa51b8a7c"
+    (path "/f4b69b4c-b4ac-4a4e-8c9e-77f4e7698670"
       (reference "R5") (unit 1) (value "270R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/555c44f4-64ed-4c28-9279-22a03f27c9dd"
