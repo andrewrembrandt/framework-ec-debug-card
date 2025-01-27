@@ -7610,6 +7610,31 @@
 			)
 		)
 	)
+	(gr_text "Designed by @DHowett\nin 2025 under the\npatronage of His\nExcellency king\nRigsby. Long may\nhe reign."
+		(at 150.53 139.92 0)
+		(layer "B.SilkS")
+		(uuid "0bdaa563-8575-444e-b6a2-9941f74f6cbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+				(italic yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "is this the {dblquote}no\nesteemed deed{dblquote}\nI have heard so\nmuch about?"
+		(at 139.82 148.41 0)
+		(layer "B.SilkS")
+		(uuid "fca8af98-a0a7-410b-9366-1364cd303223")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "TX"
 		(at 131.9 148.6 0)
 		(layer "F.SilkS")
@@ -7831,6 +7856,19 @@
 				(size 0.5842 0.5842)
 				(thickness 0.14605)
 			)
+		)
+	)
+	(gr_text "https://howett.net"
+		(at 130.62 144.68 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7cb79cc7-2768-4441-8e87-5c26552c2805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "TX"
@@ -8456,7 +8494,7 @@
 		(uuid "58b41979-d124-467d-aa8f-edb8421de5e6")
 	)
 	(via
-		(at 144.85 144.1)
+		(at 145.37 143.98)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8483,7 +8521,7 @@
 		(uuid "802841eb-6f65-4fc9-acf5-8b721ca43c5a")
 	)
 	(via
-		(at 141.9 144.1)
+		(at 142.18 144.52)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8501,7 +8539,7 @@
 		(uuid "8b3f0766-55a6-4840-9578-bda5b2e9196b")
 	)
 	(via
-		(at 134.75 145.05)
+		(at 134.112 145.542)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
