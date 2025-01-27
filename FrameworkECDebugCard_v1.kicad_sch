@@ -6550,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FrameworkECDebugCard_v1:USB4510-03-1-A_GCT"
+		(property "Footprint" "FrameworkECDebugCard_v1:MOLEX_2169900001"
 			(at 27.94 38.1 0)
 			(effects
 				(font
