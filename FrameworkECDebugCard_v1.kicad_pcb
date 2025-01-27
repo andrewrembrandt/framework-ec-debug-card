@@ -7567,7 +7567,7 @@
 			)
 		)
 	)
-	(gr_text "Designed by @DHowett\nin 2025 under the\npatronage of His\nExcellency king\nRigsby. Long may\nhe reign."
+	(gr_text "Designed by @DHowett\nin 2025 under the\npatronage of His\nExcellency King\nRigsby. Long may\nhe reign."
 		(at 150.53 139.92 0)
 		(layer "B.SilkS")
 		(uuid "0bdaa563-8575-444e-b6a2-9941f74f6cbd")
