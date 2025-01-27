@@ -4631,69 +4631,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "a75b7c81-b720-487f-a5c0-efb9e19cb8cb")
-		(at 145.591366 151.750658)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "41dc5ddf-b9ab-478f-96c3-08d2ea3d9bd2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "60194276-4fd1-45a7-91b4-c4afad73c3cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4049655a-164b-44fe-9f4a-d77bf96e5ead")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "998343af-3880-48bb-87c6-f6674b5b422e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "389ade08-23dd-430c-9f9f-e515ef4f2a0e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a8cba4f6-8d95-4aec-8515-cb2dc3afa128")
