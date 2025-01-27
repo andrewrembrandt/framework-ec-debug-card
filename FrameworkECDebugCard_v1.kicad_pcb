@@ -2318,12 +2318,18 @@
 			(at -3.2 -7.25)
 			(size 0.598 1.1)
 			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
 			(uuid "7e215857-148a-430d-a731-e2d867df92d3")
 		)
 		(pad "A4" smd rect
 			(at -2.4 -7.25)
 			(size 0.598 1.1)
 			(layers "F.Cu" "F.Paste")
+			(net 25 "Net-(C1-Pad1)")
+			(pinfunction "VBUS")
+			(pintype "passive")
 			(uuid "c4d59b27-4798-43b8-a12a-7de135bec574")
 		)
 		(pad "A5" smd rect
@@ -2363,12 +2369,18 @@
 			(at 2.4 -7.25)
 			(size 0.598 1.1)
 			(layers "F.Cu" "F.Paste")
+			(net 25 "Net-(C1-Pad1)")
+			(pinfunction "VBUS")
+			(pintype "passive")
 			(uuid "0098e80e-922f-4805-8b98-fb17a8fc5de0")
 		)
 		(pad "A12" smd rect
 			(at 3.2 -7.25)
 			(size 0.598 1.1)
 			(layers "F.Cu" "F.Paste")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
 			(uuid "e23ba4a8-ac43-4528-8ec6-31d33583c11c")
 		)
 		(pad "B5" smd rect
@@ -3959,7 +3971,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "KT-0603G"
 			(at 0 1.43 360)
 			(layer "F.Fab")
 			(uuid "34b98ea4-d791-4c5f-9f99-52265f1ea979")
@@ -4193,7 +4205,7 @@
 				)
 			)
 		)
-		(property "Value" "Red"
+		(property "Value" "KT-0603R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d56d74b5-6963-421c-9db2-600c4b35a5cc")
