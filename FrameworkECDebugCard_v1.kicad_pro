@@ -575,7 +575,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fabrication/",
+      "plot": "production/generic/gerbers/",
       "pos_files": "production/generic/",
       "specctra_dsn": "../../../../../tmp/Expansion_Card.dsn",
       "step": "",
@@ -586,7 +586,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "production/generic/bom-schematic.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -671,6 +671,12 @@
           "group_by": false,
           "label": "exclude_from_bom",
           "name": "exclude_from_bom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": false
         }
       ],
