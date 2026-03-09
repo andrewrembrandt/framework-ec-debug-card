@@ -84,7 +84,7 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
-			(usegerberattributes yes)
+			(usegerberattributes no)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
@@ -465,7 +465,7 @@
 		(path "/00000000-0000-0000-0000-00005fd76bc6")
 		(sheetname "/")
 		(sheetfile "FrameworkECDebugCard_v1.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -3.35 0)
 			(end -4.3 0)
