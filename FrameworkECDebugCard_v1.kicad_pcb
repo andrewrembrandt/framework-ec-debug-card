@@ -1832,7 +1832,7 @@
 		(path "/a94d2a18-3d1a-43f6-b3cd-866efde3bdb6")
 		(sheetname "/")
 		(sheetfile "FrameworkECDebugCard_v1.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_poly
 			(pts
 				(xy -3.5625 -7.8635) (xy -2.8375 -7.8635) (xy -2.8375 -6.6365) (xy -3.5625 -6.6365)
